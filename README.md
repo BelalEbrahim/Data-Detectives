@@ -5,126 +5,106 @@ DEPI Graduation Project
 ![Power BI](https://img.shields.io/badge/PowerBI-2023-blue) ![SQL](https://img.shields.io/badge/SQL-2023-green)  
 
 ---
-
 ## Table of Contents  
 1. [Project Objectives](#project-objectives)  
 2. [Dataset Overview](#dataset-overview)  
 3. [Technologies & Tools](#technologies--tools)  
 4. [Methodology](#methodology)  
 5. [Key Performance Indicators (KPIs)](#key-performance-indicators-kpis)  
-6. [Project Timeline & Milestones](#project-timeline--milestones)  
-7. [Deliverables](#deliverables)  
-8. [Roles & Responsibilities](#roles--responsibilities)  
-9. [Setup & Execution Guide](#setup--execution-guide)  
-10. [Future Enhancements](#future-enhancements)  
-11. [Contact Information](#contact-information)  
-12. [Contributions & Support](#contributions--support)  
-13. [Copyright & Licensing](#copyright--licensing)  
+6. [Dashboard Visuals](#dashboard-visuals)  
+7. [Project Timeline & Milestones](#project-timeline--milestones)  
+8. [Deliverables](#deliverables)  
+9. [Roles & Responsibilities](#roles--responsibilities)  
+10. [Setup & Execution Guide](#setup--execution-guide)  
+11. [Future Enhancements](#future-enhancements)  
+12. [Contact Information](#contact-information)  
+13. [Contributions & Support](#contributions--support)  
+14. [Copyright & Licensing](#copyright--licensing)  
 
 ---
 
 ## Project Objectives  
-- Analyze bank loan data to identify trends, risks, and opportunities.  
-- Develop a **Power BI dashboard** to visualize loan performance, customer behavior, and KPIs.  
-- Use **SQL** for data cleaning, transformation, and advanced analytics.  
-- Provide actionable insights to improve loan approval rates and reduce defaults.  
+- Analyze bank loan data to assess risk, profitability, and customer behavior.  
+- Identify trends in loan approvals, defaults, and repayment patterns.  
+- Provide actionable insights to optimize lending strategies and reduce losses.  
+- Develop interactive dashboards for real-time monitoring of loan portfolios.  
 
 ---
 
 ## Dataset Overview  
-The dataset includes the following key tables and fields:  
-- **Loan Details**: `Loan_ID`, `Loan_Type`, `Loan_Amount`, `Interest_Rate`, `Term_Months`, `Issue_Date`.  
-- **Customer Info**: `Customer_ID`, `Name`, `Age`, `Annual_Income`, `Employment_Status`, `DTI`.  
-- **Repayment History**: `Payment_ID`, `Loan_ID`, `Payment_Date`, `Amount_Paid`, `Payment_Status`.  
-- **Credit Info**: `Customer_ID`, `Credit_Score`, `Delinquencies`, `Bankruptcies`.  
+The dataset (`bank_loan_data`) includes **38,600 loan records** with the following key fields:  
+- `Loan ID`, `Issue Date`, `Loan Status`, `Loan Amount`, `Interest Rate`, `DTI`, `Term`, `Purpose`, `Address State`, `Employee Length`, and more.  
+- **Data Source**: Internal bank records, credit reports, and customer applications.  
 
 ---
 
 ## Technologies & Tools  
-- **Power BI**: Data visualization and dashboard creation.  
-- **SQL**: Data querying, cleaning, and transformation.  
-- **Excel**: Initial data exploration.  
-- **DAX**: Advanced calculations in Power BI.  
+- **Database**: MS SQL Server  
+- **Analytics**: Power BI (Dashboards), Python (Optional for advanced analytics)  
+- **Data Processing**: SQL Queries, Excel  
+- **Version Control**: GitHub  
 
 ---
 
 ## Methodology  
-1. **Data Preparation**: Clean and normalize raw data using SQL.  
-2. **Data Modeling**: Create relationships between tables in Power BI.  
-3. **Analysis**: Calculate KPIs (e.g., Default Rate, ROI).  
-4. **Visualization**: Design interactive dashboards in Power BI.  
-5. **Reporting**: Document insights and recommendations.  
+1. **Data Collection**: Import raw loan data into SQL Server.  
+2. **Data Cleaning**: Handle missing values, outliers, and inconsistencies.  
+3. **Exploratory Analysis**: Calculate KPIs and segment data by risk, region, and loan purpose.  
+4. **Visualization**: Build interactive dashboards in Power BI.  
+5. **Insights Generation**: Derive recommendations for risk management and profitability.  
 
 ---
 
 ## Key Performance Indicators (KPIs)  
-- **Default Rate**: Percentage of loans with late payments.  
-- **Loan Approval Rate**: Ratio of approved applications to total submissions.  
-- **ROI**: Profitability of loans.  
-- **Customer Retention Rate**: Percentage of repeat borrowers.  
-- **NPA Ratio**: Non-Performing Assets ratio.  
+| KPI                  | Description                                  |  
+|----------------------|----------------------------------------------|  
+| Total Applications   | 38,600 loans analyzed                        |  
+| Funded Amount        | $435.8M disbursed                            |  
+| Average Interest Rate| 12.05%                                       |  
+| Good Loan %          | 86.2% (Low-risk loans)                       |  
+| Bad Loan %           | 13.8% (Defaults/Charged Off)                 |  
+
+---
+
+## Dashboard Visuals  
+### Summary Dashboard  
+![Summary Dashboard](images/summary_dashboard.png)  
+*Key metrics: Loan applications, funded amounts, repayment trends, and risk distribution.*  
+
+### Regional Analysis  
+![Regional Dashboard](images/regional_analysis.png)  
+*Loan distribution by U.S. states (CA, TX, FL as top contributors).*  
 
 ---
 
 ## Project Timeline & Milestones  
-| **Sprint** | **Duration**   | **Milestone**                     | **Deliverable**                  |  
-|------------|----------------|-----------------------------------|----------------------------------|  
-| Sprint 1   | Week 1-2       | Data Cleaning & Normalization     | Cleaned SQL database.            |  
-| Sprint 2   | Week 3-4       | Data Modeling & KPI Calculation   | Power BI data model with DAX.    |  
-| Sprint 3   | Week 5-6       | Dashboard Development             | Interactive Power BI dashboard.  |  
-| Sprint 4   | Week 7-8       | Final Analysis & Reporting        | Project report with recommendations. |  
+| Phase                | Duration       | Milestones                          |  
+|----------------------|----------------|-------------------------------------|  
+| Data Preparation     | Week 1-2       | Clean and validate dataset          |  
+| Exploratory Analysis | Week 3-4       | Identify trends and KPIs            |  
+| Dashboard Development| Week 5-6       | Build Power BI dashboards           |  
+| Final Reporting      | Week 7         | Deliver insights and recommendations|  
 
 ---
 
 ## Deliverables  
-1. **SQL Scripts**: For data cleaning and transformation.  
-2. **Power BI Dashboard**: Interactive visuals and KPIs.  
-3. **Project Report**: Insights, trends, and recommendations.  
-4. **Documentation**: Setup guide and user manual.  
+1. **SQL Scripts**: For data cleaning and KPI calculations.  
+2. **Power BI Dashboards**: Interactive visuals for stakeholders.  
+3. **Final Report**: Insights, trends, and recommendations (PDF).  
 
 ---
 
 ## Roles & Responsibilities  
-| **Role**               | **Responsibilities**                                  |  
-|------------------------|------------------------------------------------------|  
-| **Data Engineer**      | Clean and normalize data using SQL.                  |  
-| **Data Modeler**       | Build relationships and DAX measures in Power BI.    |  
-| **Business Analyst**   | Analyze trends, calculate KPIs, and document insights.|  
-| **Project Manager**    | Track timeline, resolve blockers, and coordinate tasks. |  
+- **Data Analyst**: Clean data, build dashboards, generate insights.  
+- **Domain Expert**: Validate business logic and risk models.  
+- **Project Manager**: Track timelines and deliverables.  
 
 ---
 
 ## Setup & Execution Guide  
 1. **Prerequisites**:  
-   - Install [Power BI Desktop](https://powerbi.microsoft.com/).  
-   - Set up a SQL database (e.g., MySQL, SQL Server).  
-2. **Steps**:  
-   - Clone the repository.  
-   - Run SQL scripts to populate the database.  
-   - Import data into Power BI and configure the dashboard.  
-
----
-
-## Future Enhancements  
-- Integrate machine learning for default prediction.  
-- Add real-time data updates.  
-- Expand analysis to include customer segmentation.  
-
----
-
-## Contact Information  
-- **Project Lead**: [Mohamed Khedr]  
-- **Email**: belal.ibrahim.contact@gmail.com  
-- **LinkedIn**: [LinkedIn Profile]([https://linkedin.com/in/your-profile](https://www.linkedin.com/in/belal-ibrahim-0790a9245?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app))  
-
----
-
-## Contributions & Support  
-- Contributions are welcome! Fork the repo and submit pull requests.  
-- Report issues via GitHub's [Issue Tracker](https://github.com/your-repo/issues).  
-
----
-
-## Copyright & Licensing  
-- **License**: MIT License (see [LICENSE](LICENSE) for details).  
-- Copyright © 2023 [Your Name/Organization].  
+   - Install [MS SQL Server](https://www.microsoft.com/en-us/sql-server) and [Power BI Desktop](https://powerbi.microsoft.com/).  
+2. **Run SQL Queries**:  
+   ```sql  
+   -- Example: Calculate total funded amount  
+   SELECT SUM(loan_amount) AS Total_Funded_Amount FROM bank_loan_data;  
