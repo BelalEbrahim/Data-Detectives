@@ -1,5 +1,7 @@
 # Data-Detectives
 DEPI Graduation Project
+Digital Egypt Pioneers (DEPI) scholarship provided by the ministry of communications
+
 
 # Bank Loan Analysis with Power BI & SQL  
 ![Power BI](https://img.shields.io/badge/PowerBI-2023-blue) ![SQL](https://img.shields.io/badge/SQL-2023-green)  
