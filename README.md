@@ -1,6 +1,5 @@
 # Data-Detectives
-DEPI Graduation Project
-Digital Egypt Pioneers (DEPI) scholarship provided by the ministry of communications
+Digital Egypt Pioneers (DEPI) scholarship Graduation Project provided by the ministry of communications and information technology 
 
 
 # Bank Loan Analysis with Power BI & SQL  
