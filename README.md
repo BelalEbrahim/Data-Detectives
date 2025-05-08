@@ -71,11 +71,8 @@ The dataset (`bank_loan_data`) includes **38,600 loan records** with the followi
 ### Summary Dashboard  
 ![Summary Dashboard](https://drive.google.com/uc?id=1BeVnv3tcy1ms8e_fmDK_kyVTL7AKFBEL)
 
-*Key metrics: Loan applications, funded amounts, repayment trends, and risk distribution.*  
+*Key metrics: Loan applications, funded amounts, received amounts.*  
 
-### Regional Analysis  
-![Regional Dashboard](images/regional_analysis.png)  
-*Loan distribution by U.S. states (CA, TX, FL as top contributors).*  
 
 ---
 
