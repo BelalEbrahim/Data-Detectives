@@ -74,7 +74,7 @@ The dataset (`bank_loan_data`) includes **38,600 loan records** with the followi
 *Key metrics: Loan applications, funded amounts, received amounts.*  
 
 ### Overview Page  
-![Summary Page](https://drive.google.com/file/d/1qLn8pXZi-pPRotecbaSNqibFKcn9Zmb2/view?usp=drive_link)
+![Overview Page](https://drive.google.com/uc?id=1qLn8pXZi-pPRotecbaSNqibFKcn9Zmb2)
 
 ---
 
